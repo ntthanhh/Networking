@@ -6,7 +6,7 @@
 
 # 2. Những lưu ý về Mô hình OSI (7 tầng)
 
-Đây là mô hình tham chiếu lý thuyết để các hệ thống mở kết nối với nhau.
+Đây là mô hình tham chiếu lý thuyết để các hệ thống mở kết nối với nhau.Mô hình OSI (Open Systems Interconnection) là một mô hình mà tại đó nó chuẩn hoá các chức năng của một kết nối viễn thông hoặc một mạng máy tính thành 7 tầng khác nhau. Mô hình này giúp các nhà cung cấp dịch vụ mạng và các nhà phát triển tạo ra các thiết bị mạng và phần mềm có thể tương tác được với nhau.
 
 • Tầng 7: Ứng dụng (Application): Là tầng cao nhất, nơi tạo ra dữ liệu thực sự và cung cấp giao diện cho người dùng (như Web, Email).
 
@@ -28,6 +28,10 @@
 
 Đây là mô hình giao thức thực tế của Internet, ra đời trước OSI.
 
+Mô hình TCP/IP (Transmission Control Protocol) là một phiên bản được đúc kết từ mô hình OSI. TCP/IP được điều chỉnh để có thể áp dụng vào thực tiễn trên Internet và các mạng máy tính khác.
+
+Mô hình TCP/IP được phát triển từ thời kỳ đầu của Internet vào năm 1974, nó được thiết kế dựa trên họ giao thức cùng tên
+
 **Tầng 4: Ứng dụng (Application):**
     ◦ Bao gồm chức năng của 3 tầng trên cùng trong OSI (Ứng dụng, Trình diễn, Phiên).
     ◦ Các giao thức phổ biến: HTTP (Web), FTP (truyền file), SMTP (Email), DNS (tên miền).
@@ -48,6 +52,7 @@
     ◦ Tương ứng với Tầng Vật lý và Liên kết dữ liệu của OSI.
     ◦ Chịu trách nhiệm truyền dữ liệu thực tế trên môi trường vật lý (Ethernet, Wi-Fi...).
     ◦ Đơn vị dữ liệu: Khung (Frame).
+
 ![](img/TCPIP.png)
 
 # 4. So sánh và Mối quan hệ giữa các tầng
